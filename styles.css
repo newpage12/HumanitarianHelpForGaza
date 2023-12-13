@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #051827; /* Dark blue background color */
+    color: #bdd9cd; /* Light blue text color */
+}
+
+header {
+    background-color: #214457; /* Dark blue header background color */
+    color: #bdd9cd; /* Light blue text color */
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid #386994; /* Slightly lighter blue border at the bottom */
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #8eaebb; /* Lighter blue container background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    color: #051827; /* Dark blue text color for paragraphs */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #051827; /* Dark blue text color for list items */
+}
+
+a {
+    color: #386994; /* Medium blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Add any additional styling as needed */
+
+#emailCopiedMessage {
+    display: none;
+    color: yellow; /* Change the text color to yellow for better visibility */
+    font-size: 24px; /* Increase the font size to make it larger */
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+#copyEmailText {
+    text-decoration: none;
+    color: #386994; 
+}
+
+#copyEmailText:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-media-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    font-weight: bold;
+}
+
+.social-media-links a:hover {
+    text-decoration: underline;
+}
